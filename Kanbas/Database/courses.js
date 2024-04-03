@@ -1,0 +1,9 @@
+export default [ 
+    { "_id": "COMM1112",    "name": "Public Speaking",                       "number": "COMM1112",       "startDate": "2024-01-10", "endDate": "2024-05-15", "image": "public_speaking.jpg"          },
+    { "_id": "CS3800",      "name": "Theory of Computation",                 "number": "CS3800",         "startDate": "2024-01-10", "endDate": "2024-05-15", "image": "turing_machine.jpg"           },
+    { "_id": "CS4400",      "name": "Programming Languages",                 "number": "CS4400",         "startDate": "2024-01-10", "endDate": "2024-05-15", "image": "programming_languages.png"    },
+    { "_id": "CS4550",      "name": "Web Development",                       "number": "CS4550",         "startDate": "2024-01-10", "endDate": "2024-05-15", "image": "web_development.jpg"          },
+    { "_id": "CS3700",      "name": "Networks and Distributed Systems",      "number": "CS3700",         "startDate": "2023-01-10", "endDate": "2023-05-15", "image": "networks.jpg"                 },
+    { "_id": "CS4530",      "name": "Fundamentals of Software Engineering",  "number": "CS4530",         "startDate": "2023-01-10", "endDate": "2023-05-15", "image": "software_engineering.jpg"     },
+    { "_id": "ENGW3302",    "name": "Advanced Writing in Tech",              "number": "ENGW3302",       "startDate": "2023-01-10", "endDate": "2023-05-15", "image": "english.jpg"                  }
+];
