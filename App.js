@@ -4,7 +4,10 @@ import CourseRoutes from "./Kanbas/Courses/routes.js";
 import ModuleRoutes from "./Kanbas/Modules/routes.js";
 import cors from "cors";
 const app = express();
-app.use(cors());
+app.use(cors({
+    credentials: true,
+    origin: ["http://localhost:3000", "https://a5--kanbas-react-web-app-jonathan-truong.netlify.app"],
+}));
 app.use(express.json());
 ModuleRoutes(app);
 CourseRoutes(app);
